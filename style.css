@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.cont{
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+.image{
+  width: 500px;
+  height: 400px;
+  background: rgb(173, 167, 167);
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.wrap{
+  background: rgb(190, 185, 185);
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  margin: 20px;
+ 
+}
+.btn-btn{
+  padding: 10px 30px;
+  margin: 10px ;
+  outline: none;
+}
+
+.btn-btn:hover{
+  background-color: rgb(216, 207, 207);
+
+}
+.btn-btn.active{
+  background: rgb(26, 25, 25);
+  color:red;
+}
+.text2, .text3, .text{
+  display: none;
+}
+ .content.active{
+  display: block;
+}
